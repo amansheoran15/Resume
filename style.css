@@ -2,12 +2,12 @@
 
 /*Nav-Bar*/
 
-html{
-    scroll-behavior: smooth;
-}
+/*html{*/
+/*    scroll-behavior: smooth;*/
+/*}*/
 body{
     margin: -20px 0px;
-    font-family: 'Baloo Chettan 2', cursive;
+    font-family: 'Baloo Chettan 2', sans-serif;
     font-weight: 300;
 
 }
@@ -223,6 +223,7 @@ section:nth-child(2n+1){
 
 #CPP{
     width: 80%;
+    /*width: 0;*/
     height:inherit;
     border-bottom-left-radius: inherit;
     border-top-left-radius: inherit;
@@ -230,10 +231,12 @@ section:nth-child(2n+1){
     box-sizing: border-box;
     padding-left: 10px;
     padding-top: 10px;
+    transition: 1.5s ease-in-out;
 }
 
 #HTML{
     width: 85%;
+    /*width: 0;*/
     height:inherit;
     border-bottom-left-radius: inherit;
     border-top-left-radius: inherit;
@@ -241,10 +244,12 @@ section:nth-child(2n+1){
     box-sizing: border-box;
     padding-left: 10px;
     padding-top: 10px;
+    transition: 1.5s ease-in-out;
 }
 
 #CSS{
     width: 70%;
+    /*width: 0;*/
     height:inherit;
     border-bottom-left-radius: inherit;
     border-top-left-radius: inherit;
@@ -252,10 +257,12 @@ section:nth-child(2n+1){
     box-sizing: border-box;
     padding-left: 10px;
     padding-top: 10px;
+    transition: 1.5s ease-in-out;
 }
 
 #JavaScript{
     width: 30%;
+    /*width: 0;*/
     height:inherit;
     border-bottom-left-radius: inherit;
     border-top-left-radius: inherit;
@@ -263,10 +270,12 @@ section:nth-child(2n+1){
     box-sizing: border-box;
     padding-left: 10px;
     padding-top: 10px;
+    transition: 1.5s ease-in-out;
 }
 
 #FCP{
     width: 70%;
+    /*width: 0;*/
     height:inherit;
     border-bottom-left-radius: inherit;
     border-top-left-radius: inherit;
@@ -274,10 +283,12 @@ section:nth-child(2n+1){
     box-sizing: border-box;
     padding-left: 10px;
     padding-top: 10px;
+    transition: 1.5s ease-in-out;
 }
 
 #Photoshop {
     width: 50%;
+    /*width: 0;*/
     height: inherit;
     border-bottom-left-radius: inherit;
     border-top-left-radius: inherit;
@@ -285,6 +296,7 @@ section:nth-child(2n+1){
     box-sizing: border-box;
     padding-left: 10px;
     padding-top: 10px;
+    transition: 1.5s ease-in-out;
 }
 
 #Photoshop span{
@@ -293,6 +305,7 @@ section:nth-child(2n+1){
 
 #Illustrator{
     width: 60%;
+    /*width: 0;*/
     height:inherit;
     border-bottom-left-radius: inherit;
     border-top-left-radius: inherit;
@@ -300,6 +313,11 @@ section:nth-child(2n+1){
     box-sizing: border-box;
     padding-left: 10px;
     padding-top: 10px;
+    transition: 1.5s ease-in-out;
+}
+
+.skill-indicator-inner{
+    width: 0;
 }
 
 .skill-indicator:hover{
