@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <title>
         Aman Kumar Sheoran
@@ -16,13 +16,13 @@
 <header id="body-header">
     <nav id="navbar">
         <ul id="navbarul" class="horizontal-list text-center">
-            <li class="navbarlist"><a href="#">Home</a></li>
-            <li class="navbarlist"><a href="#about">About</a></li>
-            <li class="navbarlist"><a href="#skills">Skills</a></li>
-            <li class="navbarlist"><a href="#experience">Experience</a></li>
-            <li class="navbarlist"><a href="#education">Education</a></li>
-            <li class="navbarlist"><a href="#portfolio">Portfolio</a></li>
-            <li class="navbarlist"><a href="#contact">Contact</a></li>
+            <li class="navbarlist" id="home"><a href="#" class="navbarlist-a">Home</a></li>
+            <li class="navbarlist" id="about-section"><a href="#about" class="navbarlist-a">About</a></li>
+            <li class="navbarlist" id="skills-section"><a href="#skills" class="navbarlist-a">Skills</a></li>
+            <li class="navbarlist" id="experiment-section"><a href="#experience" class="navbarlist-a">Experience</a></li>
+            <li class="navbarlist" id="education-section"><a href="#education" class="navbarlist-a">Education</a></li>
+            <li class="navbarlist" id="portfolio-section"><a href="#portfolio" class="navbarlist-a">Portfolio</a></li>
+            <li class="navbarlist" id="contact-sectionn"><a href="#contact" class="navbarlist-a">Contact</a></li>
 
         </ul>
     </nav>
@@ -45,7 +45,7 @@
 
     <section id="about">
         <div id="my-image">
-            <img src="my-image.png">
+            <img src="static/my-image.png">
         </div>
 
         <div id="about-me">
@@ -72,25 +72,25 @@
 
         <div id="skills-indicators-section">
             <div class="skill-indicator">
-                <div id="CPP"><span>C++</span></div>
+                <div id="CPP" class="skill-indicator-inner" data-bar-width="80"><span>C++</span></div>
             </div>
             <div class="skill-indicator">
-                <div id="HTML">HTML</div>
+                <div id="HTML" class="skill-indicator-inner" data-bar-width="85">HTML</div>
             </div>
             <div class="skill-indicator">
-                <div id="CSS">CSS</div>
+                <div id="CSS" class="skill-indicator-inner" data-bar-width="70">CSS</div>
             </div>
             <div class="skill-indicator">
-                <div id="JavaScript">JavaScript</div>
+                <div id="JavaScript" class="skill-indicator-inner" data-bar-width="50">JavaScript</div>
             </div>
             <div class="skill-indicator">
-                <div id="FCP">Final Cut Pro</div>
+                <div id="FCP" class="skill-indicator-inner" data-bar-width="70">Final Cut Pro</div>
             </div>
             <div class="skill-indicator">
-                <div id="Photoshop"><span>Photoshop</span></div>
+                <div id="Photoshop" class="skill-indicator-inner" data-bar-width="50"><span>Photoshop</span></div>
             </div>
             <div class="skill-indicator">
-                <div id="Illustrator"><span>Illustrator</span></div>
+                <div id="Illustrator" class="skill-indicator-inner" data-bar-width="70"><span>Illustrator</span></div>
             </div>
 
 
@@ -106,7 +106,7 @@
 
         <div class="experience-container">
             <div class="experience-box">
-                <img src="girluprooh-logo.jpeg" id="girluprooh-logo">
+                <img src="static/girluprooh-logo.jpeg" id="girluprooh-logo">
                 <span class="exp-heading">Graphic Designer</span>
                 <span class="organization">Girl Up Rooh</span>
                 <span class="time-period">July 2021-Present</span>
@@ -130,7 +130,7 @@
                     outside the college. Was also given LoR for my exceptional performance.</p>
             </div>
             <div class="experience-box">
-                <img src="pingo-logo.png" id="pingolearn-logo">
+                <img src="static/pingo-logo.png" id="pingolearn-logo">
                 <span class="exp-heading">Video Editor</span>
                 <span class="organization">PingoLearn</span>
                 <span class="time-period">June 2021-July 2021</span>
@@ -193,28 +193,28 @@
 
         <div id="portfolio-content">
             <div class="portfolio-content-div" id="curieux">
-                <img src="curieux.png" alt="curieux-Logo">
+                <img src="static/curieux.png" alt="curieux-Logo">
                 <div class="portfolio-details">
                     <span>Member in Media Team at Curieux- The Computer Science Society.</span>
                 </div>
             </div>
 
             <div class="portfolio-content-div" id="cdf">
-                <img src="cdf-logo.jpg" alt="CDF-Logo">
+                <img src="static/cdf-logo.jpg" alt="CDF-Logo">
                 <div class="portfolio-details">
                     <span>Member in Marketing and PR team at CDF SGTB Khalsa</span>
                 </div>
             </div>
 
             <div class="portfolio-content-div" id="girlup">
-                <img src="girluprooh-logo.jpeg" alt="Girl Up Rooh-Logo">
+                <img src="static/girluprooh-logo.jpeg" alt="Girl Up Rooh-Logo">
                 <div class="portfolio-details">
                     <span>Member of Media Team at Girl Up Rooh</span>
                 </div>
             </div>
 
             <div class="portfolio-content-div" id="ATTPD">
-                <img src="ATTPD.png" alt="curieux-Logo">
+                <img src="static/ATTPD.png" alt="curieux-Logo">
                 <div class="portfolio-details">
                     <span>Banking Desktop Application made in Java</span>
                 </div>
@@ -274,5 +274,7 @@
 
 </main>
 
+
+<script src="resume.js"></script>
 </body>
 </html>
